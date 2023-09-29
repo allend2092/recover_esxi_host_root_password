@@ -1,0 +1,5 @@
+{
+    "vCenterServer": "vcenter.my-domain.local",
+    "username": "<account username>@my-domain.local",
+    "password": "<account password>"
+}
