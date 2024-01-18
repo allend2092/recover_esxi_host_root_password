@@ -40,5 +40,5 @@ $esxCliArgs.passwordconfirmation = $esxiNewPassword
 $esxCliHandle.system.account.set.Invoke($esxCliArgs)
 
 # Disconnect from the vCenter Server without confirmation
-Disconnect-VIServer -Server $vcenter -Confirm:$false
+Disconnect-VIServer -Server $config.vCenterServer -Confirm:$false
 
